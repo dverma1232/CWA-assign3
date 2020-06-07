@@ -1,0 +1,339 @@
+/* 
+filename: style.css
+author: Divanshu Verma
+created: 24/03/2020
+last modified: 11/05/2020
+description: links to index.html, product.html, enquire.html, about.html, enhancements.html
+*/
+/* Fade In Animation */
+* {
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 0.4s;
+}
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+
+/* Nav Bar and Breadcrumbs */
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img {
+    height: 50px;
+    padding-left: 30px;
+}
+.navbar-nav li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar-nav li a {
+    text-align: left;
+    float: right;
+}
+.navbar-toggler {
+    border: none!important;
+}
+.nav-link {
+    font-weight: 600;
+    font-size: 16px; 
+}
+.breadcrumb {
+    margin-bottom: 0 !important;
+}
+
+/* Slider */
+#slider {
+    height: auto;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #555555 !important;
+    padding-bottom: 10px;
+}
+h2:after{
+    display: block;
+    margin: 20px auto 5px;
+    width: 100px;
+    height: 3px;
+    content: " ";
+    background-color: #007bff;
+}
+
+/* Testimonials */
+#testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#testimonials .row {
+    margin-top: 20px;
+}
+.col-md-4 {
+    margin: 30px auto;
+}
+.customer {
+    margin-top: 20px;
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+.customer:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+}
+.user {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.customer img {
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid white;
+}
+.customer h3 {
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+blockquote {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* Contact Form */
+#contact {
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact-form {
+    padding: 15px;
+}
+.follow {
+    padding: 10px;
+    margin: 35px 15px 15px 15px;
+    
+}
+.follow h3 {
+    font-size: 1.3rem;
+}
+label {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+/* Product Page About Section */
+#about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    float: left;
+    background-image: url(images/background_pattern.png);
+}
+#about .btn {
+    margin-top: 20px;
+}
+.about-left {
+    padding-left: 60px !important;
+}
+#about-right {
+    width: 25%;
+    float: right;
+    border: 3px solid #007bff;
+    margin: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.about-content {
+    padding-top: 10px;
+    padding-right: 200px;
+}
+.about-content-right {
+    padding-left: 30px;
+}
+.about-content-right ul {
+    padding-left: 20px;
+}
+.about-content-right h2 {
+    margin-bottom: 15px;
+}
+
+/* Pricing Plans */
+#pricing {
+    padding: 20px 0;
+    background-color: #efefef;
+    clear: both;
+}
+.pricing-col {
+    margin: 10px auto;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+}
+.pricing-col:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+}
+.pricing-head {
+    background-color: #007bff;
+    width: 100%;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+.pricing-head h3 {
+    color: white !important;
+    font: bold 28px;
+    margin-bottom: 15px;
+}
+.pricing-head p {
+    color: white;
+    font: bold 22px;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+.pricing-head span {
+    font: 15px;
+}
+.pricing-content {
+    float: left;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+.pricing-content ul li {
+    padding: 10px 2px;
+
+}
+.pricing-btn {
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+}
+.contact-btn {
+    background-color: #007bff;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-decoration: none !important;
+    color: white ;
+}
+.contact-btn:hover {
+    transition: 0.2s;
+    border-radius: 3px;
+    border: 1px solid white;
+    color: white;
+    background-color: #106ccf;
+}
+
+/* Tutor Table */
+#tutors {
+    padding: 20px 0;
+}
+#tutor-table {
+    width: 80% !important;
+}
+#tutor-table td{
+    background-color: #e4e4e4;
+}
+#tutor-table th{
+    background-color: #f3efef;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+/* About Page */
+#about-details {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.about-figure {
+    float: right;
+    padding: 20px;
+    border: double black;
+}
+#timetable-section {
+    padding-bottom: 30px;
+}
+#timetable {
+    width: 80% !important;
+}
+#timetable td {
+    background-color: #e4e4e4;
+}
+.dl{
+    padding: 20px;
+}
+/* Enhancements Page */
+#enhancements {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Payment Page */
+.payment-group {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+.card-number, #card-name, .card-type {
+    margin-bottom: 15px;
+}
+.card-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.expiry .expiry-input, .cvv .cvv-input {
+    width: 60px;
+    text-align: center;
+}
+.expiry, .cvv {
+    display: flex;
+}
+.readonly, #readonly1, #readonly2, #readonly3, #readonly4, #readonly5, #readonly6 {
+    pointer-events: none;
+}
+.payment-right {
+    padding-top: 40px;
+    padding-left: 50px !important;
+}
+
+/* Enhancements 2 Page */
+.enhance-img {
+    margin-bottom: 20px;
+}
+/* Manager and Sign Up Page */
+#managerTable, #searchForm, #signupForm {
+    margin: 20px;
+}
+#signupForm {
+    padding-bottom: 280px;
+}
+.hideme{
+    display: none !important;
+}
+/* Footer */
+footer {
+    background-color: #333333;
+    padding: 5px;
+    color: white;
+}
+.footer-text {
+    padding-top: 5px;
+}
+
